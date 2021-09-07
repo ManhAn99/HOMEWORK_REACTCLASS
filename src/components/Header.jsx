@@ -14,7 +14,7 @@ const Header = ({handleOnChange}) => {
             </div>
             <TextField 
              id="standard-basic" 
-             label="Standard"
+             label="Search"
              onChange = {(e) => handleOnChange(e.target.value)}
              />
             <Badge className = 'cursor-pointer' badgeContent={4} color="secondary">
